@@ -1,0 +1,18 @@
+#gitignore
+
+# Files and paths to exclude tracking from all child paths
+**/.mono
+**/.DS_Store
+**/*.log
+
+# Files and paths to exclude tracking from ScadaVue
+**/node_modules
+**/dist
+ScadaVue/scada/src/main.js
+
+# Files and paths to exclude tracking from SCADA_A
+**/bin
+**/obj
+**/*.sln
+SCADA_A.Web/appsetting.json
+SCADA_A.Web/appsetting.Development.json
